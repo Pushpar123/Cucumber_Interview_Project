@@ -1,0 +1,108 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2734533400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on google page",
+            "match": {
+              "location": "StepDeff.user_on_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2782405200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDeff.beforerun()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User should ba able to search anything",
+        "description": "",
+        "id": "validate-google-search-page-functionality;user-should-ba-able-to-search-anything",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4169809700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the search line \"DUCKS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DUCKS",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDeff.user_enter_the_search_line(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "StepDeff.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Search result will display",
+            "match": {
+              "location": "StepDeff.search_result_will_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Scenario"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Google search page functionality",
+    "description": "",
+    "id": "validate-google-search-page-functionality",
+    "keyword": "Feature",
+    "uri": "feature/GoogleSearch.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@End2End"
+      }
+    ]
+  }
+]
